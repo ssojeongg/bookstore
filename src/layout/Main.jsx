@@ -1,3 +1,4 @@
+import Banner from "../components/Banner"
 import Best from "../components/Best"
 import Slide from "../components/Slide"
 
@@ -6,6 +7,7 @@ const Main = () => {
     <div className="Main">
       <Slide />
       <Best />
+      <Banner />
     </div>
   )
 }
