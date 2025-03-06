@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KyoboHand';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color-green: #d7ddd3;
+  --color-brown: #cbc5bd;
+  --color-black: #454753;
+  --color-white: #fff;
+  --color-gray: #bbb;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit
+}
+body {
+  font-family: 'KyoboHand';
+  font-size: 13px;
+  color: #454753;
+}
+.inner {
+  max-width: 1360px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+button {
+  cursor: pointer;
+  font-family: 'KyoboHand';
+}

@@ -1,0 +1,29 @@
+.HeaderMiddle {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.HeaderMiddle .HeaderMiddle_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  padding: 0.8rem 0;
+}
+.HeaderMiddle .HeaderMiddle_area > .input_area {
+  position: relative;
+}
+.HeaderMiddle .HeaderMiddle_area > .input_area input {
+  width: 20rem;
+  padding: 0.5rem 0 0.5rem 0.3rem;
+  outline: none;
+  border: 2px solid var(--color-brown);
+}
+.HeaderMiddle .HeaderMiddle_area > .input_area input:focus {
+  border: 2px solid var(--color-green);
+}
+.HeaderMiddle .HeaderMiddle_area > .input_area .search_icon {
+  position: absolute;
+  top: 0.6rem;
+  right: 1.5rem;
+  color: var(--color-brown);
+}

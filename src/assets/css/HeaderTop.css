@@ -1,0 +1,14 @@
+.HeaderTop {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.HeaderTop .HeaderTop_menu {
+  padding: 0.8rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.HeaderTop .HeaderTop_menu > .HeaderTop_left_menu, .HeaderTop_right_menu {
+  display: flex;
+  gap: 2.3rem;
+}

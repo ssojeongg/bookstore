@@ -1,0 +1,44 @@
+.HeaderMenu {
+  width: 100%;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid #ccc;
+}
+.HeaderMenu > .inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+
+}
+.HeaderMenu .HeaderMenu_left {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.HeaderMenu .HeaderMenu_left > .bar_icon {
+  color: var(--color-black);
+}
+.HeaderMenu .HeaderMenu_left > a {
+  display: block;
+}
+.HeaderMenu .HeaderMenu_right {
+  display: flex;
+}
+.HeaderMenu .HeaderMenu_right > .nav {
+  display: flex;
+  gap: 10.5rem;
+}
+.HeaderMenu .HeaderMenu_right > .nav li {
+  text-align: center;
+}
+.HeaderMenu .HeaderMenu_right > .nav > .menu_list {
+  font-size: 1.5rem;
+  width: 9.4rem;
+}
+.HeaderMenu .HeaderMenu_right > .nav .sub {
+  display: none;
+}
+.HeaderMenu .HeaderMenu_right > .nav .submenu_list {
+  font-size: 1.3rem;
+  padding-top: 0.8rem;
+}

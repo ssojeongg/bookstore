@@ -1,0 +1,99 @@
+/* ✅ 커스텀 Progress Bar */
+.Slide .custom-progress-bar {
+  position: absolute !important;
+  top: 60% !important; /* ✅ Swiper의 가장 아래 위치 */
+  left: 14.5% !important;
+  width: 200px !important; /* ✅ 전체 너비 */
+  height: 4px!important; /* ✅ 막대바 높이 */
+  background: rgba(0, 0, 0, 0.1) !important; /* ✅ 기본 배경 색상 */
+}
+
+/* ✅ 진행되는 Progress Bar */
+.Slide .custom-progress-bar .swiper-pagination-progressbar-fill {
+  background: var(--color-black) !important;
+  height: 100% !important;
+}
+/* ✅ 숫자 페이지네이션 스타일 */
+.Slide .pagination-numbers {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color-black);
+  position: absolute;
+  top: 58.5%;
+  left: 27%;
+}
+
+/* ✅ 현재 슬라이드 번호 스타일 */
+.Slide .current-slide {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color-black); 
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* ✅ 구분자 */
+.Slide .separator {
+  font-size: 18px;
+  color: gray;
+}
+
+.Slide {
+  width: 100%;
+  height: 646px;
+  position: relative;
+}
+.Slide > .slide_bgc_area {
+  background-color: var(--color-green);
+  height: 450px;
+}
+.Slide .slide_area {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  height: 550px;
+}
+.Slide .slide_area > .text_area > .title {
+  color: var(--color-white);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--color-white);
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+.Slide .slide_area > .text_area > .description1 {
+  color: var(--color-white);
+  font-size: 3.8rem;
+  padding-bottom: 2.3rem;
+}
+.Slide .slide_area > .text_area > .description2 {
+  color: var(--color-black);
+  font-size: 1.2rem;
+  padding-bottom: 2.7rem;
+}
+.Slide .slide_area > .text_area > button {
+  border: none;
+  background: none;
+  background-color: var(--color-black);
+  padding: 0.5rem 0.8rem;
+  color: var(--color-white);
+}
+.Slide .slide_area > .img_area {
+  width: 572px;
+  height: 429px;
+  position: relative;
+}
+.Slide .slide_area > .img_area > .img_box {
+  width: 572px;
+  height: 329px;
+  border: 3px solid var(--color-white);
+  box-sizing: border-box;
+}
+.Slide .slide_area > .img_area > .img_box > img {
+  width: 572px;
+  height: 429px;
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+}
