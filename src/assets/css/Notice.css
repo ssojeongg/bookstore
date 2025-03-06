@@ -1,0 +1,45 @@
+.Notice {
+  width: 100%;
+  padding: 5rem 0;
+  background-color: #eee;
+}
+.Notice .inner {
+  display: flex;
+  justify-content: space-between;
+}
+.Notice .Notice_title {
+  padding-bottom: 2rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.Notice .Notice_title > .icon {
+  border: none;
+  background: none;
+  background-color: var(--color-white);
+  padding: 0.5rem;
+  margin-top: 1.8rem;
+}
+.Notice .Notice_title > p > span {
+  color: var(--color-gray);
+}
+.Notice .Notice_area > .Notice_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.Notice .Notice_area > .Notice_box > p {
+  margin-bottom: 1rem;
+}
+.Notice .Notice_area > .Notice_box > .btn {
+  background-color: var(--color-green);
+  padding: 0.5em 0.8em;
+}
+.Notice .Notice_area > .Notice_box > .title {
+  width: 600px;
+}
+.Notice .Notice_area > .Notice_box > .manager, .date  {
+  color: var(--color-gray);
+}

@@ -1,6 +1,7 @@
 import Banner from "../components/Banner"
 import Best from "../components/Best"
 import EventTab from "../components/EventTab"
+import Notice from "../components/Notice"
 import Slide from "../components/Slide"
 
 const Main = () => {
@@ -10,6 +11,7 @@ const Main = () => {
       <Best />
       <Banner />
       <EventTab />
+      <Notice />
     </div>
   )
 }
