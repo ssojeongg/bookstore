@@ -1,0 +1,48 @@
+.active {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .3);
+  background-color: var(--color-green) !important;
+}
+.EventTab {
+  width: 100%;
+  padding: 1.2rem 0;
+}
+.EventTab .EventTab_title {
+  padding-bottom: 2rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.EventTab .EventTab_title > p > span {
+  color: var(--color-gray);
+}
+.EventTab .tabs .tab_button {
+  background: none;
+  background-color: var(--color-gray);
+  border: none;
+  width: 130px;
+  height: 3rem;
+  color: var(--color-white);
+  font-size: 1.2rem;
+}
+.EventTab .tab_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 0;
+  
+}
+.EventTab .tab_content > .tab_area > .tab_title {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  
+}
+.EventTab .tab_content > .tab_area > .sub_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-gray);
+}
+
+.EventTab .tab_content img {
+  width: 250px;
+  height: 300px;
+}
