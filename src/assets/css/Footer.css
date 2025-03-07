@@ -1,0 +1,26 @@
+.Footer {
+  width: 100%;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 3rem 0;
+}
+.Footer .ft_top {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+}
+.Footer .ft_top > .gray {
+  color: var(--color-gray);
+}
+.Footer .ft_middle {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.Footer .ft_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
