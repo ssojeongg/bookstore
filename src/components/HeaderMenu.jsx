@@ -1,7 +1,7 @@
 import '../assets/css/HeaderMenu.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import menus from '../data/menu.js'
+import menus from '../data/menu.js';
 
 const HeaderMenu = () => {
   return (
@@ -9,14 +9,14 @@ const HeaderMenu = () => {
       <div className="inner">
         <div className="HeaderMenu_left">
           <FontAwesomeIcon className='bar_icon' icon={faBars} />
-          <a href="javascript:void(0)">전체메뉴</a>
+          <a href="#">전체메뉴</a>
         </div>
         <div className="HeaderMenu_right">
-          <ul className="nav"> 
+          <ul className="nav">
             {menus.map((menu) => (
               <li key={menu.id} className='menu_list'>
                 {menu.title}
-                <ul className='sub'>
+                <ul className="sub" >
                   <div className="inner">
                     {menu.subMenu.map((subItem, index) => (
                       <li key={index} className='submenu_list'>
@@ -29,9 +29,9 @@ const HeaderMenu = () => {
             ))}
           </ul>
         </div>
-      </div>  
+      </div>
     </div>
-  )
+  );
 }
 
-export default HeaderMenu
+export default HeaderMenu;

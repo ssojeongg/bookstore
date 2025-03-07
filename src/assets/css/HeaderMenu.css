@@ -2,10 +2,12 @@
   width: 100%;
   padding: 1.2rem 0;
   border-bottom: 1px solid #ccc;
+  cursor: pointer;
 }
 .HeaderMenu > .inner {
   display: flex;
   justify-content: space-between;
+  align-items: start;
   gap: 5rem;
 
 }
@@ -32,13 +34,28 @@
   text-align: center;
 }
 .HeaderMenu .HeaderMenu_right > .nav > .menu_list {
+  position: relative;
+  overflow-y: hidden;
   font-size: 1.5rem;
   width: 9.4rem;
 }
 .HeaderMenu .HeaderMenu_right > .nav .sub {
-  display: none;
+  width: 100%;
+  z-index: 999;
+  transition: .3s;
+  opacity: 0;
+  height: 0;
+  transform: translateY(-10px);
+  background-color: var(--color-white);
+  transition: .3s;
 }
 .HeaderMenu .HeaderMenu_right > .nav .submenu_list {
   font-size: 1.3rem;
   padding-top: 0.8rem;
+}
+
+.HeaderMenu .HeaderMenu_right > .nav:hover .sub {
+  opacity: 1;
+  padding-bottom: 80px;
+  transform: translateY(0);
 }
