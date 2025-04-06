@@ -26,16 +26,20 @@ const HeaderMenu = () => {
         <div className={`HeaderMenu_right ${isAllMenuOpen ? 'all_menu_open' : ''}`}>
           <ul className="nav">
             {menus.map((menu) => (
+              <div className="inner">
               <li key={menu.id} className='menu_list'>
                 {menu.title}
                 <ul className={`sub${(openMenu === menu.id || isAllMenuOpen) ? 'show' : ''}`}>
+                    <div className="inner">
                     {menu.subMenu.map((subItem, index) => (
                       <li key={index} className='submenu_list'>
                         {subItem}
                       </li>
                     ))}
+                    </div>
                 </ul>
               </li>
+              </div>
             ))}
           </ul>
         </div>

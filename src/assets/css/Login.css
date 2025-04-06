@@ -1,0 +1,56 @@
+.Login {
+  width: 100%;
+}
+.Login .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.Login .login_left > img{
+  max-width: 500px;
+  max-height: 500px;
+}
+.Login .login_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.Login .login_right > h2 {
+  font-size: 3rem;
+  color: var(--color-gray);
+}
+.Login .login_right > .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Login .login_right > .form input {
+  border: none;
+  border-bottom: 1px solid var(--color-gray);
+  padding: 5px 20px;
+}
+.Login .login_right > .login_btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Login .login_right > .login_btn > button {
+  background-color: none;
+  border: none;
+  padding: 10px 70px;
+  color: var(--color-white);
+}
+.Login .login_right > .login_btn > button:first-child {
+  background-color: var(--color-gray);
+}
+.Login .login_right > .login_btn > button:last-child {
+  background-color: #f7e600; 
+}
+.Login .login_right > .form .icon {
+  color: var(--color-gray);
+  font-size: 1.2rem;
+  padding-right: 5px;
+}

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../assets/css/HeaderTop.css'
 const HeaderTop = () => {
   return (
@@ -10,7 +11,7 @@ const HeaderTop = () => {
             <li><a href="javascript:void(0)">서점 On Pos</a></li>
           </ul>
           <ul className="HeaderTop_right_menu">
-            <li><a href="javascript:void(0)">로그인</a></li>
+            <li><Link to="/login">로그인</Link></li>
             <li><a href="javascript:void(0)">회원가입</a></li>  
           </ul>
         </div>

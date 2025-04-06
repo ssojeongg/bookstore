@@ -37,7 +37,7 @@
 
 .HeaderMenu .HeaderMenu_right > .nav {
   display: flex;
-  gap: 10.5rem;
+/*   gap: 10.5rem; */
 }
 
 .HeaderMenu .HeaderMenu_right > .nav li {
@@ -45,7 +45,7 @@
 }
 
 /* 🟢 부모 기준점 유지 */
-.HeaderMenu .HeaderMenu_right > .nav > .menu_list {
+.HeaderMenu .HeaderMenu_right > .nav .menu_list {
   position: relative;
   font-size: 1.5rem;
   width: 9.4rem;
@@ -54,7 +54,7 @@
 /* 🟢 서브메뉴 (2depth) 기본 스타일 */
 .HeaderMenu .HeaderMenu_right > .nav .sub {
   position: absolute;
-  top: 55px;
+  top: 100%;
   left: 0;
   z-index: 999;
   width: 100%;
@@ -71,7 +71,6 @@
 .HeaderMenu .HeaderMenu_right > .nav .menu_list:hover .sub {
   opacity: 1;
   max-height: 300px;
-  display: block;
   border: 2px solid var(--color-gray);
 }
 .HeaderMenu .HeaderMenu_right > .nav .menu_list > .sub > .submenu_list {
@@ -82,11 +81,26 @@
   color: var(--color-gray);
   
 }
-
+/* 🟢 전체메뉴 버튼 클릭 시 */
+.all_menu_open {
+  position: relative;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: flex-end;
+}
+.all_menu_open .nav {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: var(--color-white);
+  z-index: 999;
+  display: flex;
+}
 .all_menu_open .menu_list {
   position: relative;
   top: 0;
-  left: 50%;
+  left: 0%;
+  text-align: center;
 }
 
 /* 🟢 햄버거 버튼 클릭 시에도 hover처럼 2depth가 1depth 바로 아래에서 보이도록 설정 */
@@ -100,25 +114,13 @@
   padding: 0;
   min-width: 200px;
 }
-
-/* 🟢 전체메뉴 버튼 클릭 시 */
-.all_menu_open {
-  position: absolute; 
-  top: 25%;
-  left: 0%;
-  width: 100%;
-  background-color: var(--color-white);
-  z-index: 900; /* 🔹 HeaderMenu_left보다 낮게 설정 */
-  display: flex;
-  align-items: flex-start;
-}
 .all_menu_open .menu_list .subshow  {
   padding: 0.5rem 0;
 }
-.all_menu_open .menu_list .subshow > .submenu_list {
+.all_menu_open .menu_list .subshow  .submenu_list {
   padding: 0.5rem 0;
   font-size: 1rem;
 }
-.all_menu_open .menu_list .subshow > .submenu_list:hover {
+.all_menu_open .menu_list .subshow  .submenu_list:hover {
   color: #ccc;
 }
