@@ -10,5 +10,10 @@
 }
 .HeaderTop .HeaderTop_menu > .HeaderTop_left_menu, .HeaderTop_right_menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 2.3rem;
 }
+.HeaderTop .HeaderTop_menu > .HeaderTop_left_menu > a, .HeaderTop_right_menu > a {
+  display: block;
+}  

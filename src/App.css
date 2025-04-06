@@ -20,6 +20,7 @@
   --color-black: #454753;
   --color-white: #fff;
   --color-gray: #bbb;
+  --color-gray2:#efefef;
 }
 li {
   list-style: none;
@@ -36,7 +37,6 @@ body {
 .inner {
   max-width: 1360px;
   margin: 0 auto;
-  overflow-x: hidden;
 }
 button {
   cursor: pointer;
