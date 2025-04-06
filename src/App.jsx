@@ -7,7 +7,7 @@ import Main from './layout/Main'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/bookstore'>
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
