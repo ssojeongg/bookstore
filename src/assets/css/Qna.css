@@ -1,0 +1,30 @@
+.Qna {
+  width: 100%;
+}
+.Qna > .title_area {
+  width: 100%;
+  background-color: var(--color-green);
+}
+.Qna > .title_area > p {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding: 3rem 0;
+}
+.Qna .qna_area .title{
+  border-bottom: 1px solid var(--color-gray);
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Qna .sub {
+  display: none;
+}
+.Qna .sub_show {
+  display: block;
+  background-color: #fafafa;
+  padding: 2rem 0;
+  font-size: 1.3rem;
+}

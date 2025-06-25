@@ -12,7 +12,7 @@ const HeaderTop = () => {
           </ul>
           <ul className="HeaderTop_right_menu">
             <li><Link to="/login">로그인</Link></li>
-            <li><a href="javascript:void(0)">회원가입</a></li>  
+            <li><Link to="/SignIn">회원가입</Link></li>  
           </ul>
         </div>
       </div>
