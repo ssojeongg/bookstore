@@ -2,12 +2,23 @@
   width: 100%;
   background-color: var(--color-green);
 }
-.Write > .title_area > p {
+.Write > .title_area > p:first-child {
   color: var(--color-white);
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
-  padding: 3rem 0;
+  padding: 3rem 0 1rem;
+}
+.Write > .title_area > p:last-child {
+  color: var(--color-gray);
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 1rem;
+}
+.Write > .title_area > p:last-child span {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1rem;
 }
 .Write .inner {
   background-color: #ebebeb;

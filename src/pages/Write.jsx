@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import '../assets/css/Write.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 const Write = () => {
   const register = () => alert("등록완료!")
@@ -7,6 +9,7 @@ const Write = () => {
     <div className="Write">
       <div className="title_area">
         <p>고객센터</p>
+        <p><FontAwesomeIcon icon={faHouse} />&nbsp;&nbsp;&gt;&nbsp;&nbsp;행운책방 안내&nbsp;&nbsp;&gt;&nbsp;&nbsp;<span>고객센터</span></p>
       </div>
       <div className="inner">
         <form>

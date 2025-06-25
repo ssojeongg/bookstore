@@ -1,11 +1,13 @@
 // src/pages/Detail.jsx
 import { useParams, Link } from 'react-router-dom';
 import customer from '../data/customer';
-import '../assets/css/Detail.css'; // 필요시
+import '../assets/css/Detail.css'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 const Detail = () => {
   const { id } = useParams();
-  const post = customer.find((item) => item.id === parseInt(id)); // id 매칭
+  const post = customer.find((item) => item.id === parseInt(id));
 
 if (!post) {
     return (
@@ -24,6 +26,7 @@ if (!post) {
     <div className="Detail">
       <div className="title_area">
         <p>고객센터</p>
+        <p><FontAwesomeIcon icon={faHouse} />&nbsp;&nbsp;&gt;&nbsp;&nbsp;행운책방 안내&nbsp;&nbsp;&gt;&nbsp;&nbsp;<span>고객센터</span></p>
       </div>
       <div className="inner">
         <div className="des_box">

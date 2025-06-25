@@ -1,7 +1,8 @@
 import { Link, useNavigate } from 'react-router-dom';
 import '../assets/css/CustomerService.css';
 import customer from '../data/customer';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 const CustomerService = () => {
   const navigate = useNavigate();
   const today = new Date();
@@ -15,6 +16,7 @@ const CustomerService = () => {
     <div className="CustomerService">
       <div className="title_area">
         <p>고객센터</p>
+        <p><FontAwesomeIcon icon={faHouse} />&nbsp;&nbsp;&gt;&nbsp;&nbsp;행운책방 안내&nbsp;&nbsp;&gt;&nbsp;&nbsp;<span>고객센터</span></p>
       </div>
       <div className="inner">
         <form>

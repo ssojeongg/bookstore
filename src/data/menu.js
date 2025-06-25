@@ -24,7 +24,7 @@ const menus = [
   },
   {
     id: 4,
-    title: "서점ON 안내",
+    title: "행운책방 안내",
     subMenu: [
       { id: 401, name: "자주 묻는 질문" },
       { id: 402, name: "고객센터" }

@@ -5,19 +5,30 @@
   width: 100%;
   background-color: var(--color-green);
 }
-.Qna > .title_area > p {
-  color: var(--color-white);
-  font-weight: bold;
-  font-size: 3rem;
-  text-align: center;
-  padding: 3rem 0;
-}
 .Qna .qna_area .title{
   border-bottom: 1px solid var(--color-gray);
   padding: 2rem 0;
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
+}
+.Qna > .title_area > p:first-child {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding: 3rem 0 1rem;
+}
+.Qna > .title_area > p:last-child {
+  color: var(--color-gray);
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 1rem;
+}
+.Qna > .title_area > p:last-child span {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1rem;
 }
 .Qna .sub {
   display: none;
