@@ -24,13 +24,6 @@
   font-weight: bold;
   font-size: 1rem;
 }
-.CustomerService .CustomerService_area .title{
-  border-bottom: 1px solid var(--color-gray);
-  padding: 2rem 0;
-  font-size: 1.5rem;
-  font-weight: bold;
-  cursor: pointer;
-}
 .CustomerService form {
   display: flex;
   justify-content: center;

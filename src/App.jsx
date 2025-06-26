@@ -10,6 +10,9 @@ import Qna from './pages/Qna';
 import CustomerService from './pages/CustomerService';
 import Write from './pages/Write';
 import Detail from './components/Detail';
+import Notice from './pages/NoticePage';
+import News from './pages/News';
+import Event from './pages/Event';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/SignIn" element={<SignIn />} />
+        <Route path="/sub/201" element={<Event />} />
+        <Route path="/sub/301" element={<Notice />} />
+        <Route path="/sub/302" element={<News />} />
         <Route path="/sub/401" element={<Qna />} />
         <Route path="/sub/402" element={<CustomerService />} />
         <Route path="/Write" element={<Write />} />

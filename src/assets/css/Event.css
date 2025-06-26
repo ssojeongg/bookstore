@@ -1,0 +1,79 @@
+.Event {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.Event > .title_area {
+  width: 100%;
+  background-color: var(--color-green);
+}
+.Event > .title_area > p:first-child {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding: 3rem 0 1rem;
+}
+.Event> .title_area > p:last-child {
+  color: var(--color-gray);
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 1rem;
+}
+.Event > .title_area > p:last-child span {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.Event .inner {
+  display: flex;
+  flex-direction: column;
+}
+.Event form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #ebebeb;
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+.Event form select {
+  padding: 0 1rem;
+}
+.Event form input {
+  padding: 0.5rem 25rem;
+}
+.Event form button {
+  background: none;
+  border: none;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 0.3rem 1.5rem;
+  font-size: 1.2rem;
+}
+.Event .Event_area table {
+  text-align: center;
+  width: 100%;
+}
+.Event .Event_area table tr:first-of-type {
+  font-weight: bold;
+  background-color: #ebebeb;
+  font-size: 1.2rem;
+}
+.Event .Event_area table tr th {
+  padding: 1.5rem 1.3rem;
+}
+.Event .Event_area table tr th:nth-of-type(1) {
+  font-size: 1rem;
+}
+.Event .Event_area table tr td:nth-of-type(1) {
+  font-size: 1rem;
+}
+.Event .Event_area table tr td:nth-of-type(2) {
+  padding: 1.5rem 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.Event .Event_area table tr td:nth-of-type(3),
+.Event .Event_area table tr td:nth-of-type(4) {
+  font-size: 1rem;
+}
