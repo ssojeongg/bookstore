@@ -1,15 +1,12 @@
 import { useNavigate } from 'react-router-dom';
 import '../assets/css/NoticePage.css';
-import customer from '../data/customer';
+import notice from '../data/notice';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 const NoticePage = () => {
   const navigate = useNavigate();
-  const today = new Date();
-  const date = `${today.getFullYear()}년 ${today.getMonth() + 1}월 ${today.getDate()}일`;
-
   const handleWriteClick = (id) => {
-    navigate(`/detail/${id}`);
+    navigate(`/noticedetail/${id}`);
   };
   return (
     <div className="NoticePage">
@@ -32,11 +29,11 @@ const NoticePage = () => {
                 <td>제목</td>
                 <td>등록일</td>
               </tr>
-              {customer.map((data, id) => (
+              {notice.map((data, id) => (
                 <tr key={id}>
                   <th>{data.id}</th>
                   <td onClick={() => handleWriteClick(data.id)}>{data.title}</td>
-                  <td>{date}</td>
+                  <td>{data.date}</td>
                 </tr>
               ))}
           </table>

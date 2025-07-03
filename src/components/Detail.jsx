@@ -1,4 +1,3 @@
-// src/pages/Detail.jsx
 import { useParams, Link } from 'react-router-dom';
 import customer from '../data/customer';
 import '../assets/css/Detail.css'; 

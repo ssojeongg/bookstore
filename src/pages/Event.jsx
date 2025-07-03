@@ -9,7 +9,7 @@ const Event = () => {
   const date = `${today.getFullYear()}년 ${today.getMonth() + 1}월 ${today.getDate()}일`;
 
   const handleWriteClick = (id) => {
-    navigate(`/detail/${id}`);
+    navigate(`/eventdetail/${id}`);
   };
   return (
     <div className="Event">

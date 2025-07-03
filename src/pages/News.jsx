@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import '../assets/css/News.css';
-import customer from '../data/customer';
+import news from '../data/news';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 const NoticePage = () => {
@@ -9,7 +9,7 @@ const NoticePage = () => {
   const date = `${today.getFullYear()}년 ${today.getMonth() + 1}월 ${today.getDate()}일`;
 
   const handleWriteClick = (id) => {
-    navigate(`/detail/${id}`);
+    navigate(`/newsdetail/${id}`);
   };
   
   return (
@@ -33,7 +33,7 @@ const NoticePage = () => {
                 <td>제목</td>
                 <td>등록일</td>
               </tr>
-              {customer.map((data, id) => (
+              {news.map((data, id) => (
                 <tr key={id}>
                   <th>{data.id}</th>
                   <td onClick={() => handleWriteClick(data.id)}>{data.title}</td>

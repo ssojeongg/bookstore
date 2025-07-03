@@ -13,6 +13,9 @@ import Detail from './components/Detail';
 import Notice from './pages/NoticePage';
 import News from './pages/News';
 import Event from './pages/Event';
+import NoticeDetail from './components/NoticeDetail';
+import NewsDetail from './components/EventDetail';
+import EventDetail from './components/EventDetail';
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
         <Route path="/sub/402" element={<CustomerService />} />
         <Route path="/Write" element={<Write />} />
         <Route path="/Detail/:id" element={<Detail />} />
+        <Route path="/NoticeDetail/:id" element={<NoticeDetail />} />
+        <Route path="/NewsDetail/:id" element={<NewsDetail />} />
+        <Route path="/eventDetail/:id" element={<EventDetail />} />
       </Routes>
       <Footer />
     </BrowserRouter>
