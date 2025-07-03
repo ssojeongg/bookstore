@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faLock } from '@fortawesome/free-solid-svg-icons'
 import '../assets/css/Login.css'
+import '../assets/reponsive/Res_Login.css'
 import login from "../assets/img/login1.jpg"
 const Login = () => {
   return (
