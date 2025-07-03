@@ -1,0 +1,38 @@
+@media(max-width:767px) {
+  .Detail {
+    width: 100vw;
+    padding-bottom: 1.5rem;
+  }
+  .Detail .title_area {
+    padding: 1.5rem 0;
+  }
+  .Detail > .title_area > p:first-child {
+    padding: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .Detail> .title_area > p:last-child {
+    padding: 0;
+  }
+  .Detail .inner {
+    padding: 0 1.5rem;
+    gap: 2rem;
+  }
+  .Detail form {
+    padding: 1rem 0;
+  }
+  .Detail form select {
+    padding: 0;
+  }
+  .Detail form input {
+    padding: 0;
+  }
+  .Detail form button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+  }
+  .Detail .des_box h2,
+  .Detail .ans_box h4 {
+    font-size: 1.5rem;
+  }
+}

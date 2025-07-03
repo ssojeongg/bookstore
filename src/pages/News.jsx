@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import '../assets/css/News.css';
+import '../assets/reponsive/Res_News.css'
 import news from '../data/news';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';

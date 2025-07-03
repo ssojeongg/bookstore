@@ -1,26 +1,13 @@
 import { useParams, Link } from 'react-router-dom';
 import customer from '../data/customer';
 import '../assets/css/Detail.css'; 
+import '../assets/reponsive/Res_Detail.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 const Detail = () => {
   const { id } = useParams();
   const post = customer.find((item) => item.id === parseInt(id));
-
-if (!post) {
-    return (
-      <div className="Detail">
-        <div className="inner">
-          <h2>해당 글을 찾을 수 없습니다.</h2>
-          <div className="btn_area">
-            <Link to="/sub/402"><button>목록으로</button></Link>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div className="Detail">
       <div className="title_area">

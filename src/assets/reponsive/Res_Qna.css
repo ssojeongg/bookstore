@@ -1,0 +1,25 @@
+@media(max-width:767px) {
+  .Qna {
+    width: 100vw;
+  }
+  .Qna .title_area {
+    padding: 1.5rem 0;
+  }
+  .Qna > .title_area > p:first-child {
+    padding: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .Qna> .title_area > p:last-child {
+    padding: 0;
+  }
+  .Qna .inner {
+    padding: 0 1.5rem;
+  }
+  .Qna .qna_area .title {
+    font-size: 1.2rem;
+  }
+  .Qna .sub_show {
+    font-size: 1rem;
+  }
+}

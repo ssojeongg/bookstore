@@ -1,0 +1,42 @@
+@media(max-width:767px) {
+  .CustomerService {
+    width: 100vw;
+  }
+  .CustomerService .title_area {
+    padding: 1.5rem 0;
+  }
+  .CustomerService > .title_area > p:first-child {
+    padding: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .CustomerService> .title_area > p:last-child {
+    padding: 0;
+  }
+  .CustomerService .inner {
+    padding: 0 1.5rem;
+  }
+  .CustomerService form {
+    padding: 1rem 0;
+  }
+  .CustomerService form select {
+    padding: 0;
+  }
+  .CustomerService form input {
+    padding: 0;
+  }
+  .CustomerService form button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+  }
+  .CustomerService .customer_area table tr th {
+    padding: 0.8rem 0;
+  }
+  .CustomerService .customer_area table tr td:nth-of-type(1) {
+    padding: 0;
+    width: 7rem;
+  }
+  .CustomerService .customer_area table tr td:nth-of-type(3) {
+    font-size: 0.8rem;
+  }
+}

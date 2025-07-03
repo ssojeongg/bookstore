@@ -1,5 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import '../assets/css/CustomerService.css';
+import '../assets/reponsive/Res_CustomerService.css'
 import customer from '../data/customer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';

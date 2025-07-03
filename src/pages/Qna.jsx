@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '../assets/css/Qna.css'
+import '../assets/reponsive/Res_Qna.css'
 import qna from '../data/qna'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';

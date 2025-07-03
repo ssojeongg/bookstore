@@ -1,0 +1,19 @@
+ .Write {
+    width: 100vw;
+    padding-bottom: 0;
+  }
+  .Write .title_area {
+    padding: 1.5rem 0;
+  }
+  .Write > .title_area > p:first-child {
+    padding: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .Write> .title_area > p:last-child {
+    padding: 0;
+  }
+  .Write .inner {
+    padding: 1.5rem;
+    gap: 2rem;
+  }

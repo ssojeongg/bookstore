@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import '../assets/css/Write.css'
+import '../assets/reponsive/Res_Write.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';

@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import '../assets/css/Event.css';
+import '../assets/reponsive/Res_Event.css'
 import event from '../data/event'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';

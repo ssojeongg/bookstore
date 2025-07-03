@@ -1,0 +1,45 @@
+@media(max-width:767px) {
+  .Event {
+    width: 100vw;
+  }
+  .Event .title_area {
+    padding: 1.5rem 0;
+  }
+  .Event > .title_area > p:first-child {
+    padding: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .Event> .title_area > p:last-child {
+    padding: 0;
+  }
+  .Event .inner {
+    padding: 0 1.5rem;
+  }
+  .Event form {
+    padding: 1rem 0;
+  }
+  .Event form select {
+    padding: 0;
+  }
+  .Event form input {
+    padding: 0;
+  }
+  .Event form button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+  }
+  .Event .Event_area table tr th {
+    padding: 0.8rem 0;
+  }
+  .Event .Event_area table tr td:nth-of-type(2) {
+    padding: 0;
+    width: 7rem;
+  }
+  .Event .Event_area table tr td:nth-of-type(3) {
+    display: none;
+  }
+  .Event .Event_area table tr td:nth-of-type(4) {
+    font-size: 0.8rem;
+  }
+}
