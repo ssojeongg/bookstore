@@ -1,0 +1,17 @@
+@media (max-width:767px) {
+  .HeaderMiddle {
+    width: 100vw;
+  }
+  .HeaderMiddle > .inner {
+    padding: 0 1.5rem;
+  }
+  .HeaderMiddle .HeaderMiddle_area {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+  }
+  .HeaderMiddle .HeaderMiddle_area img {
+    max-width: 3.5rem;
+    max-height: 3.5rem;
+  }
+}

@@ -1,4 +1,5 @@
 import '../assets/css/Best.css';
+import '../assets/reponsive/Res_Best.css'
 import bestBooks from '../data/Best';
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,10 +18,16 @@ const Best = () => {
         <Swiper
           modules={[Pagination]} 
           spaceBetween={10} 
-          slidesPerView={5} 
+          slidesPerView={3} 
           centeredSlides={true} 
           loop={true} 
           pagination={{ clickable: true }}
+          breakpoints={{
+            768: {
+               slidesPerView: 5,
+              spaceBetween: 10,
+            },
+          }}
         >
           {bestBooks.map((best, index) => (
             <SwiperSlide 

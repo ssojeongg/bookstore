@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: start;
   gap: 5rem;
+  overflow-x: visible;
 }
 
 .HeaderMenu .HeaderMenu_left {
@@ -34,7 +35,9 @@
 .HeaderMenu .HeaderMenu_right {
   display: flex;
 }
-
+.HeaderMenu .HeaderMenu_right .inner {
+  overflow-x: visible;
+}
 .HeaderMenu .HeaderMenu_right > .nav {
   display: flex;
   gap: 10rem;

@@ -1,4 +1,5 @@
 import '../assets/css/Notice.css'
+import '../assets/reponsive/Res_Notice.css'
 import noticeData from '../data/notice.js'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../assets/css/HeaderMiddle.css'
+import '../assets/reponsive/Res_HeaderMiddle.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import logo from '../assets/img/logo.png'

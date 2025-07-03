@@ -33,3 +33,9 @@
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
+
+@media (max-width:767px) {
+  .Banner {
+    display: none;
+  }
+}

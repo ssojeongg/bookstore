@@ -1,4 +1,5 @@
 import '../assets/css/HeaderMenu.css';
+import '../assets/reponsive/Res_HeaderMenu.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import menus from '../data/menu.js';

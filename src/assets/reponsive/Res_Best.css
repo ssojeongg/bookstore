@@ -1,0 +1,54 @@
+@media (max-width:767px) {
+  /* ✅ 페이지네이션 스타일 */
+.swiper-pagination {
+  position: absolute;
+  bottom: -0px;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  display: flex;
+  gap: 12px; /* 점 간격 */
+}
+
+/* ✅ 페이지네이션 점 스타일 */
+.swiper-pagination-bullet {
+  background-color: gray; /* 기본 색상 */
+  width: 8px;
+  height: 8px;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+/* ✅ 활성화된 페이지네이션 스타일 */
+.swiper-pagination-bullet-active {
+  background-color: black !important; /* 활성화 색상 */
+  opacity: 1;
+  transform: scale(1.3); /* 크기 강조 */
+}
+
+
+
+  .Best {
+    width: 100vw;
+  }
+  .Best > .inner {
+    padding: 1.5rem;
+  }
+  .Best .Best_title {
+    font-size: 1.3rem;
+  }
+  .Best .BestSlide {
+    height: 18rem;
+  }
+  .Best .BestSlide .Best_area {
+    height: 8rem;
+  }
+  .Best .BestSlide .Best_area .img_area {
+    height: 8rem;
+  }
+  .Best .BestSlide .Best_area .img_area img {
+    height: 8rem;
+  }
+  .Best .BestSlide .text_area {
+    font-size: 0.9rem;
+  }
+}

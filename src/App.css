@@ -37,6 +37,7 @@ body {
 .inner {
   max-width: 1360px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 button {
   cursor: pointer;

@@ -1,0 +1,11 @@
+@media (max-width:767px) {
+  .HeaderTop {
+    width: 100vw;
+  }
+  .HeaderTop > .inner {
+    padding: 0 1.5rem;
+  }
+  .HeaderTop .HeaderTop_menu > .HeaderTop_left_menu, .HeaderTop_right_menu {
+    gap: 0.7rem;
+  }
+}

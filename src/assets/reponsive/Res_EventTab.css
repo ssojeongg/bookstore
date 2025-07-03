@@ -1,0 +1,33 @@
+@media(max-width:767px) {
+  .EventTab {
+    width: 100vw;
+    padding: 0;
+  }
+  .EventTab .inner {
+    padding: 0 1.5rem;
+  }
+  .EventTab .EventTab_title {
+    font-size: 1.3rem;
+  }
+  .EventTab .tabs .tab_button {
+    width: 3.2rem;
+    font-size: 1rem;
+  }
+  .EventTab .tab_content  {
+    overflow-x: scroll;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+  .EventTab .tab_content img {
+    width: 7rem;
+    height: 7rem;
+  }
+  .EventTab .tab_content > .tab_area > .tab_title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .EventTab .tab_content > .tab_area > .sub_area > .tab_company {
+    display: none;
+  }
+}

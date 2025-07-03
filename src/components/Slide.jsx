@@ -1,4 +1,5 @@
 import '../assets/css/Slide.css';
+import '../assets/reponsive/Res_Slide.css'
 import slideData from '../data/slide.js';
 
 import { Swiper, SwiperSlide } from "swiper/react";

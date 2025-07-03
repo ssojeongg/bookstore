@@ -1,4 +1,5 @@
 import '../assets/css/EventTab.css';
+import '../assets/reponsive/Res_EventTab.css';
 import eventTab from '../data/eventTab.js';
 import { useState, useEffect } from 'react';
 

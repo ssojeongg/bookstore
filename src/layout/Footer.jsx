@@ -1,4 +1,5 @@
 import '../assets/css/Footer.css'
+import '../assets/reponsive/Res_Footer.css'
 
 import logo from '../assets/img/logo.png'
 

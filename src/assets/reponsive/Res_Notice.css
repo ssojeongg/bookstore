@@ -1,0 +1,21 @@
+@media (max-width:767px) {
+  .Notice {
+    width: 100vw;
+  }
+  .Notice .inner {
+    padding: 0 1.5rem;
+    flex-direction: column;
+  }
+  .Notice .Notice_title {
+    font-size: 1.3rem;
+  }
+  .Notice .Notice_area .Notice_box {
+    font-size: 1rem;
+    border-bottom: 1px solid var(--color-white);
+  }
+  .Notice .Notice_area > .Notice_box {
+    flex-wrap: wrap;
+    gap: 0;
+    padding-top: 1rem;
+  }
+}
