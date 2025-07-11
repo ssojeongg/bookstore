@@ -17,6 +17,7 @@ import NoticeDetail from './components/NoticeDetail';
 import NewsDetail from './components/EventDetail';
 import EventDetail from './components/EventDetail';
 import New from './pages/New';
+import BestPage from './pages/BestPage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/SignIn" element={<SignIn />} />
         <Route path="/sub/101" element={<New />} />
+        <Route path="/sub/102" element={<BestPage />} />
         <Route path="/sub/201" element={<Event />} />
         <Route path="/sub/301" element={<Notice />} />
         <Route path="/sub/302" element={<News />} />

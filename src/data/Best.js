@@ -109,7 +109,96 @@ const bestBooks = [
     publishedDate: "2024-08-20",
     ISBN: "9788991234560"
   },
-
+  {
+    id: 12,
+    title: "노르웨이의 숲",
+    img: "https://bookthumb-phinf.pstatic.net/cover/124/287/12428742.jpg",
+    price: "12,000원",
+    author: "무라카미 하루키",
+    publisher: "문학동네",
+    publishedDate: "2023-08-10",
+    ISBN: "9788954653847"
+  },  
+  {
+    id: 13,
+    title: "완벽주의자를 위한 행복 연습",
+    img: "https://shopping-phinf.pstatic.net/main_4529066/45290662620.20240117095417.jpg",
+    price: "15,000원",
+    author: "김연수",
+    publisher: "문학동네",
+    publishedDate: "2024-01-05",
+    ISBN: "9788954655094"
+  },
+  {
+    id: 14,
+    title: "완전한 행복",
+    img: "https://bookthumb-phinf.pstatic.net/cover/205/780/20578083.jpg",
+    price: "14,800원",
+    author: "정세랑",
+    publisher: "문학동네",
+    publishedDate: "2024-05-28",
+    ISBN: "9788954656084"
+  },
+  {
+    id: 15,
+    title: "불편한 편의점",
+    img: "https://bookthumb-phinf.pstatic.net/cover/189/260/18926010.jpg",
+    price: "15,500원",
+    author: "김호연",
+    publisher: "나무옆의자",
+    publishedDate: "2024-04-05",
+    ISBN: "9791192131604"
+  },
+  {
+    id: 16,
+    title: "어린 왕자",
+    img: "https://bookthumb-phinf.pstatic.net/cover/097/003/09700399.jpg",
+    price: "8,500원",
+    author: "생텍쥐페리",
+    publisher: "더클래식",
+    publishedDate: "2023-01-10",
+    ISBN: "9788901123834"
+  },
+  {
+    id: 17,
+    title: "연금술사",
+    img: "https://bookthumb-phinf.pstatic.net/cover/000/648/00064853.jpg",
+    price: "11,000원",
+    author: "파울로 코엘료",
+    publisher: "문학동네",
+    publishedDate: "2023-07-15",
+    ISBN: "9788954620099"
+  },
+  {
+    id: 18,
+    title: "달러구트 꿈 백화점 2",
+    img: "https://bookthumb-phinf.pstatic.net/cover/207/771/20777131.jpg",
+    price: "14,000원",
+    author: "이미예",
+    publisher: "팩토리나인",
+    publishedDate: "2024-06-20",
+    ISBN: "9791192507641"
+  },
+  {
+    id: 19,
+    title: "불편한 편의점",
+    img: "https://bookthumb-phinf.pstatic.net/cover/189/260/18926010.jpg",
+    price: "15,500원",
+    author: "김호연",
+    publisher: "나무옆의자",
+    publishedDate: "2024-04-05",
+    ISBN: "9791192131604"
+  },
+  {
+    id: 20,
+    title: "언어의 온도",
+    img: "https://bookthumb-phinf.pstatic.net/cover/109/245/10924505.jpg",
+    price: "14,500원",
+    author: "이기주",
+    publisher: "말글터",
+    publishedDate: "2025-02-10",
+    ISBN: "9788998649959"
+  },
 ];
 
 export default bestBooks;

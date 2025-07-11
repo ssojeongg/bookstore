@@ -1,0 +1,67 @@
+@media(max-width:767px) {
+  .BestPage {
+    width: 100vw;
+  }
+  .BestPage .title_area {
+    padding: 1.5rem 0;
+  }
+  .BestPage > .title_area > p:first-child {
+    padding: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .BestPage> .title_area > p:last-child {
+    padding: 0;
+  }
+  .BestPage .inner {
+    padding: 0 1.5rem;
+  }
+  .BestPage form {
+    padding: 1rem 0;
+  }
+  .BestPage form select {
+    padding: 0;
+  }
+  .BestPage form input {
+    padding: 0;
+  }
+  .BestPage form button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+  }
+  .BestPage .bestPage_area .img_box {
+    flex-direction: column;
+    gap: 2rem;
+   }
+   .BestPage .bestPage_area .img_area {
+    justify-content: space-between;
+   }
+  .BestPage .bestPage_area .img_area .img_box .books_area{
+    gap: 2rem;
+  }
+  .BestPage .bestPage_area .img_box .books_area img {
+    max-width: 130px;
+    max-height: 180px;
+  }
+  .BestPage .bestPage_area .img_area .txt_box {
+    gap: 0;
+  }
+  .BestPage .bestPage_area .img_area .txt_box .author, 
+  .BestPage .bestPage_area .img_area .txt_box .pub, 
+  .BestPage .bestPage_area .img_area .txt_box .isbn {
+    display: none;
+  }
+  .BestPage .bestPage_area .img_area .txt_box .title {
+    font-size: 1.2rem;
+  }
+  .BestPage .bestPage_area .img_area .txt_box .price {
+    font-size: 1rem;
+  }
+  .BestPage .bestPage_area .img_area .img_box .btn_area {
+    display: flex;
+    flex-direction: column;
+  } 
+  .BestPage .bestPage_area .img_area .img_box .btn_area button {
+    padding: 0.8rem 1.8rem;
+  } 
+}
