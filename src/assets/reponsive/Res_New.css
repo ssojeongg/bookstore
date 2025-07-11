@@ -1,0 +1,57 @@
+@media(max-width:767px) {
+  .New {
+    width: 100vw;
+  }
+  .New .title_area {
+    padding: 1.5rem 0;
+  }
+  .New > .title_area > p:first-child {
+    padding: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .New> .title_area > p:last-child {
+    padding: 0;
+  }
+  .New .inner {
+    padding: 0 1.5rem;
+  }
+  .New form {
+    padding: 1rem 0;
+  }
+  .New form select {
+    padding: 0;
+  }
+  .New form input {
+    padding: 0;
+  }
+  .New form button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+  }
+  .New .new_area .img_box {
+    flex-direction: column;
+    gap: 2rem;
+   }
+  .New .new_area .img_area .img_box .books_area{
+    gap: 2rem;
+  }
+  .New .new_area .img_box .books_area img {
+    max-width: 130px;
+    max-height: 180px;
+  }
+  .New .new_area .img_area .txt_box {
+    gap: 0;
+  }
+  .New .new_area .img_area .txt_box .author, 
+  .New .new_area .img_area .txt_box .pub, 
+  .New .new_area .img_area .txt_box .isbn {
+    display: none;
+  }
+  .New .new_area .img_area .txt_box .title {
+    font-size: 1.2rem;
+  }
+  .New .new_area .img_area .txt_box .price {
+    font-size: 1rem;
+  }
+}

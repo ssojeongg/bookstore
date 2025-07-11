@@ -1,0 +1,123 @@
+.New {
+  width: 100%;
+}
+.New > .title_area {
+  width: 100%;
+  background-color: var(--color-green);
+}
+.New .qna_area .title{
+  border-bottom: 1px solid var(--color-gray);
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.New > .title_area > p:first-child {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding: 3rem 0 1rem;
+}
+.New > .title_area > p:last-child {
+  color: var(--color-gray);
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 1rem;
+}
+.New > .title_area > p:last-child span {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.New .inner {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+.New form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #ebebeb;
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+.New form select {
+  padding: 0 1rem;
+}
+.New form input {
+  padding: 0.5rem 25rem;
+}
+.New form button {
+  background: none;
+  border: none;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 0.3rem 1.5rem;
+  font-size: 1.2rem;
+}
+.New .new_area {
+  display: flex;
+  flex-direction: column;
+}
+.New .new_area .img_area {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.New .new_area .img_area .img_box {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.New .new_area .img_area .img_box .books_area {
+  display: flex;
+  gap: 5rem;
+}
+.New .new_area .img_area .img_box img {
+  width: 200px;
+  height: 300px;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.New .new_area .img_area .img_box .btn_area {
+  display: flex;
+  flex-direction: column;
+   gap: 1rem;
+}
+.New .new_area .img_area .img_box .btn_area button {
+  border: none;
+  background: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+.New .new_area .img_area .img_box .btn_area button:first-child {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.New .new_area .img_area .img_box .btn_area button:last-child {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border: 1px solid var(--color-black);
+}
+.New .new_area .img_area .txt_box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.New .new_area .img_area .txt_box .title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.New .new_area .img_area .txt_box .author,
+.New .new_area .img_area .txt_box .pub,
+.New .new_area .img_area .txt_box .isbn {
+  font-size: 1.2rem;
+}
+.New .new_area .img_area .txt_box .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-brown);
+}
