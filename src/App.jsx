@@ -18,6 +18,7 @@ import NewsDetail from './components/EventDetail';
 import EventDetail from './components/EventDetail';
 import New from './pages/New';
 import BestPage from './pages/BestPage';
+import Floating from './components/Floating';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/NewsDetail/:id" element={<NewsDetail />} />
         <Route path="/eventDetail/:id" element={<EventDetail />} />
       </Routes>
+      <Floating />
       <Footer />
     </BrowserRouter>
   );

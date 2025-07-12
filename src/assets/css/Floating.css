@@ -1,0 +1,26 @@
+.Floating {
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  bottom: 20px;
+  background-color: var(--color-white);
+  border: 1px solid #ebebeb;
+}
+.Floating .floating_btn {
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+.Floating .floating_btn:last-child {
+  background-color: var(--color-green);
+  flex-direction: row;
+}
+.Floating .floating_btn p:first-child {
+  font-size: 1.3rem;
+}
+.Floating .floating_btn p:last-child {
+  font-size: 1rem;
+}

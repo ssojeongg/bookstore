@@ -1,0 +1,11 @@
+@media(max-width:767px) {
+  .Floating .floating_btn {
+    padding: 0.8rem 0.8rem;
+  }
+  .Floating .floating_btn p:first-child {
+  font-size: 1rem;
+}
+.Floating .floating_btn p:last-child {
+  font-size: 0.8rem;
+}
+}
