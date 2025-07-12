@@ -1,0 +1,118 @@
+.Cart {
+  width: 100%;
+}
+.Cart > .title_area {
+  width: 100%;
+  background-color: var(--color-green);
+}
+.Cart .qna_area .title{
+  border-bottom: 1px solid var(--color-gray);
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Cart > .title_area > p:first-child {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding: 3rem 0 1rem;
+}
+.Cart > .title_area > p:last-child {
+  color: var(--color-gray);
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 1rem;
+}
+.Cart > .title_area > p:last-child span {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.Cart .inner {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Cart .cart_area {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: calc(100% - 350px);
+}
+.Cart .cart_area .cart_box {
+  display: flex;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ebebeb;
+  gap: 3rem;
+  align-items: center;
+}
+.Cart .cart_area .cart_box .img_box img {
+  box-sizing: border-box;
+  border: 2px solid #ebebeb;
+  width: 200px;
+  height: 300px;
+}
+.Cart .cart_area .cart_box .txt_area {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.Cart .cart_area .cart_box .txt_area .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.Cart .cart_area .cart_box .txt_area .price {
+  display: flex;
+  align-items: center;
+}
+.Cart .cart_area .cart_box .txt_area .price .price_cal  {
+  display: flex;
+  align-items: center;
+}
+.Cart .cart_area .cart_box .txt_area .price input {
+  padding: 0.4rem 0.5rem 0.4rem;
+}
+.Cart .cart_area .cart_box .txt_area .price button {
+  background: none;
+  border: none;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 0.5rem 0.8rem;
+}
+.Cart .cart_area .cart_box .txt_area .price p:last-of-type {
+  padding-left: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Cart .cart_price_area {
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 350px;
+  background-color: var(--color-green);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Cart .cart_price_area button {
+  background: none;
+  border: none;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 1rem 0;
+  margin: 3rem 1.5rem;
+  font-size: 1rem;
+}
+.Cart .cart_price_area .cart_price_box {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  gap: 1rem;
+  padding-top: 3rem;
+}
+.Cart .cart_price_area .cart_price_box p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}

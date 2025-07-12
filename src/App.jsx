@@ -19,6 +19,7 @@ import EventDetail from './components/EventDetail';
 import New from './pages/New';
 import BestPage from './pages/BestPage';
 import Floating from './components/Floating';
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/NoticeDetail/:id" element={<NoticeDetail />} />
         <Route path="/NewsDetail/:id" element={<NewsDetail />} />
         <Route path="/eventDetail/:id" element={<EventDetail />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Floating />
       <Footer />
