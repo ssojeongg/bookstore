@@ -2,7 +2,7 @@ import '../assets/css/Pagination.css';
 import ReactPaginate from "react-paginate";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
-const Pagination = ({ pageCount, onPageChange, currentPage }) => {
+const Paginationbar = ({ pageCount, onPageChange, currentPage }) => {
   return (
     <ReactPaginate
       previousLabel={<FiChevronLeft />}
@@ -17,4 +17,4 @@ const Pagination = ({ pageCount, onPageChange, currentPage }) => {
   );
 };
 
-export default Pagination;
+export default Paginationbar;

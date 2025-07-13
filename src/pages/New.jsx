@@ -3,8 +3,9 @@ import '../assets/reponsive/Res_New.css';
 import newBooks from '../data/newBooks';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
-import Pagination from '../components/Pagination';
+import Pagination from '../components/Paginationbar';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const New = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -35,10 +36,12 @@ const New = () => {
 
         <div className="new_area">
           <div className="img_area">
-            {currentItems.map((data, index) => (
+            {currentItems.map((data, index, id) => (
               <div className="img_box" key={index}>
                 <div className="books_area">
-                  <img src={data.img} alt={data.title} />
+                  <Link to={`/newdetail/${data.id}`}>
+                    <img src={data.img} alt={data.title} />
+                  </Link>
                   <div className="txt_box">
                     <p className="title">{data.title}</p>
                     <p className="author">저자 : {data.author}</p>

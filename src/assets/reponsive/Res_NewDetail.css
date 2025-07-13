@@ -1,0 +1,45 @@
+@media(max-width:767px) {
+  .NewDetail {
+    width: 100vw;
+  }
+  .NewDetail .title_area {
+    padding: 1.5rem 0;
+  }
+  .NewDetail > .title_area > p:first-child {
+    padding: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .NewDetail > .title_area > p:last-child {
+    padding: 0;
+  }
+  .NewDetail .inner {
+    padding: 1.5rem;
+  }
+  .NewDetail .new_detail_area {
+    flex-direction: column;
+    gap: 2rem;
+  }  
+  .NewDetail .new_detail_area img {
+    width: 130px;
+    height: 180px;
+  }
+   .NewDetail .new_detail_area .txt_box_area {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .NewDetail .new_detail_area .price_area .price_cal {
+    display: flex;
+  } 
+  .NewDetail .new_detail_area .price_area .price_cal input {
+    width: 10px;
+  }
+  .NewDetail .new_detail_area .txt_box_area .btn_area {
+    gap: 0;
+    justify-content: space-between;
+  }
+  .modal {
+    width: 300px;
+    height: 300px;
+  }
+}  

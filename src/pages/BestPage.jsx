@@ -3,8 +3,9 @@ import '../assets/reponsive/Res_BestPage.css';
 import best from '../data/Best';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
-import Pagination from '../components/Pagination';
+import Pagination from '../components/Paginationbar';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const BestPage = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -38,7 +39,9 @@ const BestPage = () => {
             {currentItems.map((data, index) => (
               <div className="img_box" key={index}>
                 <div className="books_area">
-                  <img src={data.img} alt={data.title} />
+                  <Link to={`/bestdetail/${data.id}`}>
+                    <img src={data.img} alt={data.title} />
+                  </Link>
                   <div className="txt_box">
                     <p className="title">{data.title}</p>
                     <p className="author">저자 : {data.author}</p>

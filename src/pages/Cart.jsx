@@ -35,7 +35,6 @@ const Cart = () => {
         <p>장바구니</p>
         <p><FontAwesomeIcon icon={faHouse} /> &gt; 상품상세 &gt; <span>장바구니</span></p>
       </div>
-
       <div className="inner">
         <div className="cart_area">
           {cartData.map((data, index) => (

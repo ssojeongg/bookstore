@@ -20,6 +20,8 @@ import New from './pages/New';
 import BestPage from './pages/BestPage';
 import Floating from './components/Floating';
 import Cart from './pages/Cart';
+import NewDetail from './pages/NewDetail';
+import BestDetail from './pages/BestDetail'
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
         <Route path="/NewsDetail/:id" element={<NewsDetail />} />
         <Route path="/eventDetail/:id" element={<EventDetail />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/newdetail/:id" element={<NewDetail />} />
+        <Route path="/bestdetail/:id" element={<BestDetail />} />
       </Routes>
       <Floating />
       <Footer />
