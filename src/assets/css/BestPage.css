@@ -105,11 +105,12 @@
   padding: 1rem 2rem;
   font-size: 1rem;
 }
-.BestPage .bestPage_area .img_area .img_box .btn_area button:first-child {
+.BestPage .bestPage_area .img_area .img_box .btn_area .cart {
   background-color: var(--color-black);
   color: var(--color-white);
+  display: block;
 }
-.BestPage .bestPage_area .img_area .img_box .btn_area button:last-child {
+.BestPage .bestPage_area .img_area .img_box .btn_area .pay {
   background-color: var(--color-white);
   color: var(--color-black);
   border: 1px solid var(--color-black);

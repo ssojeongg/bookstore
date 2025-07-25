@@ -64,4 +64,10 @@
   .BestPage .bestPage_area .img_area .img_box .btn_area button {
     padding: 0.8rem 1.8rem;
   } 
+  .BestPage .bestPage_area .img_area .img_box .btn_area .cart {
+    width: 100%;
+  }
+  .BestPage .bestPage_area .img_area .img_box .btn_area .pay {
+    width: 100%;
+  }
 }

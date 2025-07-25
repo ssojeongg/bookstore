@@ -27,15 +27,13 @@
     width: 130px;
     height: 180px;
   }
-  .Cart .cart_area .cart_box .txt_area {
- 
-  }
   .Cart .cart_area .cart_box .txt_area .title {
     font-size: 1rem;
   }
    .Cart .cart_area .cart_box .txt_area .price {
     flex-direction: column;
     gap: 1rem;
+    align-items: start;
    }
    .Cart .cart_area .cart_box .txt_area .price p:last-of-type {
     padding-left: 0;

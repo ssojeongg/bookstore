@@ -1,4 +1,4 @@
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .HeaderMiddle {
     width: 100vw;
   }
@@ -10,8 +10,8 @@
     flex-direction: column;
     padding: 1.5rem 0;
   }
-  .HeaderMiddle .HeaderMiddle_area img {
+  /* .HeaderMiddle .HeaderMiddle_area img {
     max-width: 3.5rem;
     max-height: 3.5rem;
-  }
+  } */
 }

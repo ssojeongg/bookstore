@@ -43,6 +43,9 @@
   .New .new_area .img_area .txt_box {
     gap: 0;
   }
+  .New .new_area .img_area .img_box .btn_area .cart {
+    width: 100%;
+  }
   .New .new_area .img_area .txt_box .author, 
   .New .new_area .img_area .txt_box .pub, 
   .New .new_area .img_area .txt_box .isbn {

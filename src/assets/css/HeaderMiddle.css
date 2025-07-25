@@ -27,3 +27,8 @@
   right: 1.5rem;
   color: var(--color-brown);
 }
+.logo {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+}
