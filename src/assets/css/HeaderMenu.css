@@ -18,7 +18,7 @@
 .HeaderMenu .HeaderMenu_left {
   display: flex;
   gap: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   align-items: center;
   position: relative;
   z-index: 1001;
@@ -28,8 +28,9 @@
   color: var(--color-black);
 }
 
-.HeaderMenu .HeaderMenu_left > a {
-  display: block;
+.HeaderMenu .HeaderMenu_left a {
+  display: flex;
+  flex-shrink: 0;
 }
 
 .HeaderMenu .HeaderMenu_right {
@@ -40,7 +41,7 @@
 }
 .HeaderMenu .HeaderMenu_right > .nav {
   display: flex;
-  gap: 10rem;
+  /* gap: 10rem; */
 }
 
 .HeaderMenu .HeaderMenu_right > .nav li {
@@ -53,7 +54,7 @@
 /* 🟢 부모 기준점 유지 */
 .HeaderMenu .HeaderMenu_right > .nav .menu_list {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   width: 9.4rem;
 }
 
@@ -85,7 +86,6 @@
 }
 .HeaderMenu .HeaderMenu_right > .nav .menu_list > .sub .submenu_list:hover {
   color: var(--color-gray);
-  
 }
 /* 🟢 전체메뉴 버튼 클릭 시 */
 .all_menu_open {
@@ -121,13 +121,13 @@
   padding: 0;
   min-width: 200px;
 }
-.all_menu_open .menu_list .subshow  {
+.all_menu_open .menu_list .subshow {
   padding: 0.5rem 0;
 }
-.all_menu_open .menu_list .subshow  .submenu_list {
+.all_menu_open .menu_list .subshow .submenu_list {
   padding: 0.5rem 0;
   font-size: 1rem;
 }
-.all_menu_open .menu_list .subshow  .submenu_list:hover {
+.all_menu_open .menu_list .subshow .submenu_list:hover {
   color: #ccc;
 }
